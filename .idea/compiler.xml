@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="company" />
+        <module name="config" />
+        <module name="course-service" />
+        <module name="discovery" />
+        <module name="proxy-service" />
+        <module name="teachers-service" />
+        <module name="ui-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="company" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="config-service" target="1.8" />
+      <module name="course-service" target="1.8" />
+      <module name="discovery" target="1.8" />
+      <module name="proxy" target="1.8" />
+      <module name="proxy-service" target="1.8" />
+      <module name="teachers-service" target="1.8" />
+      <module name="ui-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="company" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="course-service" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="proxy" options="-parameters" />
+      <module name="proxy-service" options="-parameters" />
+      <module name="teachers-service" options="-parameters" />
+      <module name="ui-service" options="-parameters" />
+    </option>
+  </component>
+</project>
